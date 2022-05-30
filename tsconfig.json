@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "lib": ["esnext"],
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true,
+    "pretty": true,
+    "baseUrl": "./src",
+    "rootDirs": ["src"],
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "outDir": "dist"
+  },
+  "rootDirs": ["src"],
+  "include": ["src"],
+  "exclude": ["node_modules", "src/**.spec.js", "dist"],
+}
